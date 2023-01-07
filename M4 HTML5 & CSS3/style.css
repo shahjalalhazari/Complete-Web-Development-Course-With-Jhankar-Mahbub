@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid darkgray;
+    padding: 5px 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding-right: 20px ;
+}
+
+nav li a {
+    text-decoration: none;
+}

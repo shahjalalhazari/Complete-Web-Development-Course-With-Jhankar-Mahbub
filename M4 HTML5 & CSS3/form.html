@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+
+    <style>
+        form {
+            padding-top: 20px;
+        }
+        label {
+            display: block;
+            padding-bottom: 15px;
+        }
+        fieldset {
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hellooo World!!!</h2>
+    <form>
+        <label for="name">Your Name:
+            <input type="text" id="name" placeholder="Your Name">
+        </label>
+        <label for="email">Your Email:
+            <input type="email" id="email" placeholder="Your Email">
+        </label>
+        <label for="password">Your Password:
+            <input type="password" id="password" placeholder="Your Password">
+        </label>
+
+        <fieldset>
+            <legend>How long you will take these for?</legend>
+            <label for="10-days">
+                <input type="radio" name="days" id="10-dayssz">
+                10 Days
+            </label>
+            <label for="7-days">
+                <input type="radio" name="days" id="7-dayssz">
+                7 Days
+            </label>
+            <label for="5-days">
+                <input type="radio" name="days" id="5-dayssz">
+                5 Days
+            </label>
+            <label for="3-days">
+                <input type="radio" name="days" id="3-dayssz">
+                3 Days
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick up your book(s)</legend>
+            <label for="physics">
+                <input type="checkbox" name="books" id="physics">
+                Physics
+            </label>
+            <label for="english">
+                <input type="checkbox" name="books" id="english">
+                English
+            </label>
+            <label for="bangla">
+                <input type="checkbox" name="books" id="bangla">
+                Bangla
+            </label>
+            <label for="science">
+                <input type="checkbox" name="books" id="science">
+                Science
+            </label>
+            <label for="chamistry">
+                <input type="checkbox" name="books" id="chamistry">
+                Chamistry
+            </label>
+            <label for="biology">
+                <input type="checkbox" name="books" id="biology">
+                Biology
+            </label>
+            <label for="math">
+                <input type="checkbox" name="books" id="math">
+                Math
+            </label>
+            <label for="hindi">
+                <input type="checkbox" name="books" id="hindi">
+                Hindi
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Write Some Comment:</legend>
+            <textarea name="comment" id="comment" cols="70" rows="3" placeholder="Write Your Comment [optional]"></textarea>
+        </fieldset>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
