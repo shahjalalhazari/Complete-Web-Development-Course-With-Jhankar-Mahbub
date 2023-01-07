@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common Classes */
+.primary-btn {
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.section-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.section-list li {
+    list-style: none;
+}
+
+
+/* Header Section's Style */
+.header {
+    background-image: url(../images/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.main-section {
+    text-align: right;
+    padding: 216px 230px 0 0;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.header-description {
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.header-btn {
+    background-color: #F15B22;
+    padding: 24px 26px;
+    color: #fff;
+    margin-bottom: 166px;
+}
+
+
+/* Failure-Section's Style */
+.failure-section {
+    display: flex;
+}
+
+.failure-img {
+    margin-top: 131px;
+    margin-left: 206px;
+}
+
+.failure-img img {
+    width: 569px;
+    height: 723.3px;
+}
+
+.failure-content {
+    margin: 370px 300px 0 87px;
+}
+
+.failure-content h2 {
+    margin-bottom: 24px;
+}
+
+.failure-content p {
+    margin-bottom: 16px;
+}
+
+.section-list li i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+.list-items li {
+    margin-bottom: 8px;
+}
+
+
+/* My Plans Section's Style */
+.my-plans-section {
+    padding: 130px 220px;
+    text-align: center;
+}
+
+.my-plan-items {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.plan-item h3 {
+    margin-top: 18px;
+}
+
+.plan-item h5 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+
+/* Banner Section's Style */
+.banner-section {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    margin: 0 230px;
+}
+
+.banner-content {
+    padding: 60px 64px;
+}
+
+.banner-section h2 {
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.call-btn {
+    color: #F15B22;
+    background-color: #F3F3F3;
+    padding: 21px 36px;
+}
+
+
+/* Footer's Style */
+.footer {
+    background-color: #151414;
+    margin-top: 130px;
+    padding: 130px 230px;
+    color: #fff;
+    display: flex;
+}
+
+.text-content {
+    width: 485px;
+}
+
+.text-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.text-descriptionn {
+    color: FFFF;
+}
+
+.contact {
+    margin-top: 24px;
+}
+
+.contact p {
+    margin-bottom: 16px;
+}
+
+.social-icons {
+    margin-top: 32px;
+}
+
+.social-icons img {
+    margin-right: 17px;
+}
+
+.subscribe {
+    margin-left: 330px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFF;
+    margin-bottom: 32px;
+}
+
+.subscribe-form input {
+    box-sizing: border-box;
+    background-color: #151414;
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    padding-left: 21px;
+}
+
+.form-btn {
+    margin-top: 16px;
+    padding: 20px 36px;
+    color: #F15B22;
+}
