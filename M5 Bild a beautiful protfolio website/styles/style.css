@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Colors */
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 0;
+}
+
+/* Header & Nav */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    padding-right: 38px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 51px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 57px;
+    font-size: 20px;
+}
+
+nav li a {
+    color: #FD6E0A;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.hire-btn {
+    padding: 0px 35px;
+}
+
+
+/* Banner's style */
+.banner {
+    margin: 0 0 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.banner button {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 17px;
+}
+
+.contact-btn {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 18px 0;
+    margin: 30px;
+}
+
+/* Main */
+.main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* About Section */
+.about-section {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 157px;
+}
+
+.section-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-desription {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.info-name {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-value {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* What i do Section's style */
+.work-details {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.detail-cards {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.detail-card {
+    background: #FFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+
+.detail-card-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Resume Section's Style */
+.resume-summary {
+    margin-top: 130px;
+}
+
+.resume-content {
+    display: flex;
+    margin-top: 113px;
+}
+
+.education-container {
+    margin-right: 25px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item {
+    margin-top: 30px;
+}
+
+.resume-item hr {
+    margin: 30px 0;
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.resume-item .description {
+    color: #757575;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.download-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.download-btn button {
+    padding: 0 17px;
+}
+
+/* Footer Style */
+
+.footer {
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 230px;
+    display: flex;
+}
+
+.footer-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.footer-decription {
+    font-size: 16px;
+    margin: 20px 117px 30px 0;
+    color: #757575;
+}
+
+.social-icons a {
+    margin-right: 24px;
+    color: #FD6E0A;
+    font-size: 24px;
+}
+
+.footer .contact-form input, textarea {
+    height: 64px;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 30px;
+    border: 0;
+    margin-bottom: 24px;
+}
+
+.footer .contact-form textarea {
+    padding: 18px 30px;
+}
+
+.contact-form button {
+    padding: 0 39px;
+}
