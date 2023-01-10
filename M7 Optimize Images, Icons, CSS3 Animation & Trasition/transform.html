@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container, .inner {
+            width: 100px;
+            height: 100px;
+            border: 3px solid brown;
+        }
+
+        .container {
+            background-color: lightblue;
+        }
+
+        .inner {
+            background-color: lightpink;
+            transform: scale(0.45); /* Single Transformation */
+            transform: scale(0.45) rotate(45deg); /* Multiple Transformation write all Transformtion value with a white space. */
+            transform: translate(300px) translateX(50px) translateY(100px); /* Using Translate for Transformation. We Can also use directional into X and Y axis.*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Hii, This is CSS Transformer.</h1>
+    <div class="box container">
+        <div class="inner">box1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box3</div>
+    </div>
+</body>
+</html>
