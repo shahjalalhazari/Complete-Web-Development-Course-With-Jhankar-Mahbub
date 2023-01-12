@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+            /* >>> IF we just use Grid as display value it will show nothing or nothing will change. Therefore, we have defina number of colom or row.*/
+            grid-template-columns: 200px 150px 200px 350px 500px 200px;
+            grid-template-columns: 200px 150px auto 350px;
+            /* >>> repeat takes 2 values.
+            1. How many column(s) We want.
+            2. How much size it will take. */
+            grid-template-columns: repeat(5, 1fr);  /* THis one will make 8 columns of equal size.*/
+        }
+        .item {
+            border: 2px solid maroon;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Grid Layout.</h1>
+    <div class="container">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+        <div class="item">Item-6</div>
+        <div class="item">Item-7</div>
+        <div class="item">Item-8</div>
+        <div class="item">Item-9</div>
+        <div class="item">Item-10</div>
+        <div class="item">Item-11</div>
+        <div class="item">Item-12</div>
+        <div class="item">Item-13</div>
+        <div class="item">Item-14</div>
+        <div class="item">Item-15</div>
+        <div class="item">Item-16</div>
+        <div class="item">Item-17</div>
+        <div class="item">Item-18</div>
+        <div class="item">Item-19</div>
+        <div class="item">Item-20</div>
+        <div class="item">Item-21</div>
+        <div class="item">Item-22</div>
+        <div class="item">Item-23</div>
+        <div class="item">Item-24</div>
+        <div class="item">Item-25</div>
+    </div>
+</body>
+</html>
