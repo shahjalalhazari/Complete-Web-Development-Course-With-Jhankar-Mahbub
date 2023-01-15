@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Com Flex</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            height: 400px;
+            width: 100%;
+        }
+
+        .row {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        .second-row,
+        .third-row {
+            display: flex;
+            gap: 5px;
+        }
+
+        .second-row>div {
+            flex: 1;
+        }
+
+        .second-row-third-column {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .second-row-third-column img {
+            height: 200px;
+        }
+
+        .second-row-third-column div {
+            height: calc(50% - 5px/2);
+        }
+
+        .third-row > div {
+            flex: 1;
+        }
+
+        /* Responsive */ 
+        @media screen and (max-width: 576px) {
+            .second-row, .third-row {
+                flex-direction: column;
+            }
+        }
+
+        @media screen and (min-width: 577px) {
+            .row {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="row">
+            <img src="images/a.jpg" alt="">
+        </section>
+
+        <section class="row second-row">
+            <div>
+                <img src="images/b.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/c.jpg" alt="">
+            </div>
+            <div class="second-row-third-column">
+                <div>
+                    <img src="images/d.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/e.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="row third-row">
+            <div>
+                <img src="images/f.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/g.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/h.jpg" alt="">
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
