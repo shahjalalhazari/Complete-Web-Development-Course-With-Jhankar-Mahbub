@@ -1,0 +1,23 @@
+.client-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.footer>ul>li {
+    list-style: none;
+    padding-right: 25px;
+}
+.footer>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-list, .bottom-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer>p {
+    padding-left: 30px;
+}
