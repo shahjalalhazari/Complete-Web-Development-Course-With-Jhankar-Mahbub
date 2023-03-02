@@ -1,0 +1,17 @@
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.area-calc {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: rgba(8, 8, 8, 0.8);
+}
+
+#ellipse-inputs, #ellipse-cross {
+    display: none;
+}
